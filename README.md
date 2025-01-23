@@ -6,3 +6,6 @@ encoder:
 CNN – To extract features from the image. A pre-trained model called Resnet is used for this.
 decoder:
 T5 – To generate a description from the extracted information of the image.
+
+
+Model performance was evaluated using BLEU score. These results (quantitative and qualitative) were acquired by leveraging greedy decoding. Results of higher quality can be obtained by using beam search which isn't implemented in this repo.
